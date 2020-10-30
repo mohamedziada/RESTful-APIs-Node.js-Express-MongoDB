@@ -10,8 +10,8 @@
   },
   "type": "module",
   "repository": {
-    "type": "git",
-    "url": "http://igs.ibiidi.co.uk/root/product-catalogue.git"
+    "type": "github",
+    "url": "https://github.com/mohamedziada/RESTful-APIs-Node.js-Express-MongoDB.git"
   },
   "author": "Mohamed Ziada",
   "license": "UNLICENSED",
