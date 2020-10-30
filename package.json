@@ -1,0 +1,30 @@
+{
+  "name": "product-catalogue",
+  "version": "0.1.0",
+  "description": "Product Catalog web service API and GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./index.js --exec babel-node -e js",
+    "start": "node ./index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "http://igs.ibiidi.co.uk/root/product-catalogue.git"
+  },
+  "author": "Mohamed Ziada",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^2.0.5"
+  }
+}
