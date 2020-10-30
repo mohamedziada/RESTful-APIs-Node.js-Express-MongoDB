@@ -1,7 +1,7 @@
 {
   "name": "product-catalogue",
   "version": "0.1.0",
-  "description": "Product Catalog web service API and GraphQL",
+  "description": "Product Catalog web service API and GraphQL using node and mongoDB",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon ./index.js --exec babel-node -e js",
